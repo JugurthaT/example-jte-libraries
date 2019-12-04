@@ -1,5 +1,5 @@
 void call(){
     node{
-        sh "mvn clean verify"
+        sh "mvn -v"
     }
 }
