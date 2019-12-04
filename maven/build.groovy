@@ -2,6 +2,6 @@ void call(){
   println "Jug :maven: build()"
  
 }
-def info(message) {
+void info(message) {
     echo "INFO: ${message}"
 }
