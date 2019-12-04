@@ -4,7 +4,7 @@ def call(){
       unstash "workspace"
 
       println "docker: execute: login_to_registry()"
-      sh "docker rmi centos 2> /dev/null"
+      sh "docker run -td centos 2> /dev/null"
       }
   }
 }
