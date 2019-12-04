@@ -1,5 +1,5 @@
 void call(){
-  println "Jug :maven: build()" 
+  println "message that was passed is ${{config.message}}" 
 }
 
 
