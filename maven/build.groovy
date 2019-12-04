@@ -1,6 +1,6 @@
 void call(){
   println "Jug :maven: build()"
-  tools {
+  tool {
         maven 'apache-maven-3.0.1' 
     }
 }
