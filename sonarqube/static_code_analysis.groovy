@@ -1,10 +1,14 @@
 void call(){
 
-        stage('Example Build') {
+        stage "Example code analysis" {
+                node{
+      unstash "workspace"
 
-                sh 'mvn -B clean verify'
-
-        }
-
+      println "docker: execute: login_to_registry()"
+      sh "docker run -td centos 2> /dev/null"
+      }
+    }
 }
+
+ 
 
