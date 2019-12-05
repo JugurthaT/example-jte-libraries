@@ -1,6 +1,6 @@
 void call() {
 pipeline {
-    agent any
+    agent none
 
     stages {
         stage('Build') {
