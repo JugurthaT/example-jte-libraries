@@ -1,4 +1,4 @@
-call() {
+void call() {
 pipeline {
     agent any
 
