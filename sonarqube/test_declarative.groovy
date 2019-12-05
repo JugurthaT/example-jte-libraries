@@ -1,4 +1,4 @@
-// vars/defaultUtilityPipeline.groovy
+//sonarqube/test_declarative.groovy
 // This pipeline requires no parameters as input.
  
 def call(Map pipelineParams) {
